@@ -13,6 +13,7 @@ function handleClick(){
   else{
     this.innerHTML=`<p class="text-blue-500">${currPlayer}</p>`;
   }
+  count++
   setTimeout(checkCondition,300);
 }
 
